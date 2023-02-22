@@ -69,7 +69,11 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
+<<<<<<< Updated upstream
     textureCompression: 1
+=======
+    textureCompression: 0
+>>>>>>> Stashed changes
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -130,8 +134,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
+<<<<<<< Updated upstream
       spriteID: 2a3c6298197326b4b99ef317e3149936
       internalID: -564039910
+=======
+      spriteID: d33821dd91e72ad48a506c13f9858913
+      internalID: 1251174039
+>>>>>>> Stashed changes
       vertices: []
       indices: 
       edges: []
@@ -151,8 +160,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
+<<<<<<< Updated upstream
       spriteID: 1f9e99dec0098d04b8c164c71dab588b
       internalID: 775843759
+=======
+      spriteID: ff6e600d05cc66946b7e67b30aad7344
+      internalID: 973926173
+>>>>>>> Stashed changes
       vertices: []
       indices: 
       edges: []
@@ -168,8 +182,13 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
+<<<<<<< Updated upstream
       Tilesheets_02_1: 775843759
       Tilesheets_02_0: -564039910
+=======
+      Tilesheets_02_1: 973926173
+      Tilesheets_02_0: 1251174039
+>>>>>>> Stashed changes
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
