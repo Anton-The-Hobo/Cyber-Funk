@@ -3,10 +3,12 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class Movement_Script : MonoBehaviour
+
 {
     private float horizontal; //Variabel för input på x-axeln
     private float vertical; //Variabel för input på y-axeln
     public float MoveSpeed = 8; //Variabel för hur mycket spelaren ska röra på sig
+    public int health = 2;
 
     private Vector2 Direction; //Positionen hos spelaren
 
