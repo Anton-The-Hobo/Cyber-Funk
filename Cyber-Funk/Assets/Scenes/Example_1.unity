@@ -124,6 +124,7 @@ NavMeshSettings:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!1 &4130897
 GameObject:
   m_ObjectHideFlags: 0
@@ -273,6 +274,8 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+=======
+>>>>>>> c9c15d7011422c341c34796dce7ad867d91c0119
 =======
 >>>>>>> c9c15d7011422c341c34796dce7ad867d91c0119
 --- !u!1 &47055001
@@ -1113,6 +1116,7 @@ CanvasRenderer:
   m_GameObject: {fileID: 579714518}
   m_CullTransparentMesh: 1
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!1 &632937831
 GameObject:
   m_ObjectHideFlags: 0
@@ -1213,6 +1217,8 @@ MonoBehaviour:
   target: {fileID: 4130902}
   cameraPosition: {x: 0, y: 0, z: -10}
   followingSpeed: 0
+=======
+>>>>>>> c9c15d7011422c341c34796dce7ad867d91c0119
 =======
 >>>>>>> c9c15d7011422c341c34796dce7ad867d91c0119
 --- !u!1 &767331380
