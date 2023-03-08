@@ -5,7 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class LevelLoader : MonoBehaviour
 {
-
+    public int sceneBuildIndex;
     public Animator transition;
 
     public float transitionTime = 1f; 
@@ -13,10 +13,13 @@ public class LevelLoader : MonoBehaviour
 
    
     // Update is called once per frame
-    void Update()
+    private void OnTriggerEnter2D(Collider2D other)
     {
-        if(Input.GetMouseButtonDown(0))
+        print("Trigger Entered");
+        
+        if(other.tag == "Player")
         {
+            
             LoadNextLevel();
         }
     }
