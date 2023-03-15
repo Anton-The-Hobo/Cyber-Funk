@@ -8,7 +8,7 @@ public class LevelLoader : MonoBehaviour
     public int sceneBuildIndex;
     public Animator transition;
 
-    public float transitionTime = 1f; 
+    public float transitionTime = 1f; // Hur snabbt animationen ska spelas
 
 
    
@@ -17,7 +17,7 @@ public class LevelLoader : MonoBehaviour
     {
         print("Trigger Entered");
         
-        if(other.tag == "Player")
+        if(other.tag == "Player") //om ett object with the tag "player" colliderar med "levelswitch" so byter den scene.
         {
             
             LoadNextLevel();
@@ -26,7 +26,7 @@ public class LevelLoader : MonoBehaviour
 
     public void LoadNextLevel()
     {
-        StartCoroutine(LoadLevel(SceneManager.GetActiveScene().buildIndex + 1));
+        StartCoroutine(LoadLevel(SceneManager.GetActiveScene().buildIndex + sceneBuildIndex));
 
     }
 
