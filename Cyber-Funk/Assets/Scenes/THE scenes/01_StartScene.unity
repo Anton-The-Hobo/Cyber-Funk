@@ -371,6 +371,10 @@ PrefabInstance:
       propertyPath: transition
       value: 
       objectReference: {fileID: 340509569}
+    - target: {fileID: 4322103713495217545, guid: 257c7dd52508a324ca7198fc7a35d1f7, type: 3}
+      propertyPath: sceneBuildIndex
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4322103713495217590, guid: 257c7dd52508a324ca7198fc7a35d1f7, type: 3}
       propertyPath: m_Name
       value: LevelSwitch
@@ -3074,10 +3078,6 @@ PrefabInstance:
     - target: {fileID: 1093476389451204477, guid: 8b30d0796e78693448663ff0d6139788, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1093476389451204479, guid: 8b30d0796e78693448663ff0d6139788, type: 3}
-      propertyPath: MoveSpeed
-      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 1093476390029939265, guid: 8b30d0796e78693448663ff0d6139788, type: 3}
       propertyPath: m_LocalPosition.x
