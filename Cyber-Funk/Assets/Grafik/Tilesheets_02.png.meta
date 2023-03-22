@@ -69,46 +69,6 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-<<<<<<< Updated upstream
-    textureCompression: 1
-=======
-    textureCompression: 0
->>>>>>> Stashed changes
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 3
-    buildTarget: Standalone
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 3
-    buildTarget: Server
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 3
-    buildTarget: WebGL
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
     textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
@@ -134,13 +94,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-<<<<<<< Updated upstream
-      spriteID: 2a3c6298197326b4b99ef317e3149936
-      internalID: -564039910
-=======
-      spriteID: d33821dd91e72ad48a506c13f9858913
-      internalID: 1251174039
->>>>>>> Stashed changes
+      spriteID: c3ec5d3db410c184985b8436c6202002
+      internalID: 355281158
       vertices: []
       indices: 
       edges: []
@@ -160,13 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-<<<<<<< Updated upstream
-      spriteID: 1f9e99dec0098d04b8c164c71dab588b
-      internalID: 775843759
-=======
-      spriteID: ff6e600d05cc66946b7e67b30aad7344
-      internalID: 973926173
->>>>>>> Stashed changes
+      spriteID: 642e98bc7d8290d49ba8244a0150ff11
+      internalID: -1537728356
       vertices: []
       indices: 
       edges: []
@@ -174,7 +124,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 5e97eb03825dee720800000000000000
+    spriteID: ed44aaca6011ccb43a86d6d98522738f
     internalID: 0
     vertices: []
     indices: 
@@ -182,13 +132,8 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-<<<<<<< Updated upstream
-      Tilesheets_02_1: 775843759
-      Tilesheets_02_0: -564039910
-=======
-      Tilesheets_02_1: 973926173
-      Tilesheets_02_0: 1251174039
->>>>>>> Stashed changes
+      Tilesheets_02_1: -1537728356
+      Tilesheets_02_0: 355281158
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
