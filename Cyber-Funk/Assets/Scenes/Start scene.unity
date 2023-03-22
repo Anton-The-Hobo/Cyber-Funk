@@ -2790,6 +2790,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   player: {fileID: 1916454266}
   speed: 1
+  distanceBetween: 5
 --- !u!1 &1662838876
 GameObject:
   m_ObjectHideFlags: 0
