@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 1093476389451204472}
   - component: {fileID: 1093476389451204473}
   - component: {fileID: -459453876362576980}
+  - component: {fileID: 137974390029405904}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -102,7 +103,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   MoveSpeed: 6
-  health: 2
   rb: {fileID: 1093476389451204473}
 --- !u!61 &1093476389451204472
 BoxCollider2D:
@@ -164,6 +164,20 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bullet: {fileID: 4610040584144761401, guid: 86b2c0efb54a4e64b981627abb434fea, type: 3}
+--- !u!114 &137974390029405904
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1093476389451204474}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a1c309213baf066469a2ad272a0fdeb4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  maxHealth: 2
+  playerHealth: 2
 --- !u!1 &1093476390029939276
 GameObject:
   m_ObjectHideFlags: 0
