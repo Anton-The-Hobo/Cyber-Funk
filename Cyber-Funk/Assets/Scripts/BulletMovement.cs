@@ -20,6 +20,11 @@ public class BulletMovement : MonoBehaviour //Script för spelarskottens riktning
     // Update: Anropas en gång per frame
     void FixedUpdate()
     {
+        
+    }
+
+    void SHootUp()
+    {
         // Förflyttar projektilen konstant uppåt (position av projektilen uppdateras), värdet 0.1f bestämmer hur snabbt objektet kommer röra sig
         transform.position = new Vector3(transform.position.x, transform.position.y + 0.1f, transform.position.z);
     }
