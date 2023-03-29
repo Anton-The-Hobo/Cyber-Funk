@@ -207,7 +207,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3225211133480912697, guid: b2e9d9e0fcb8f3c47bbe3fcf1db9a15d, type: 3}
       propertyPath: m_RootOrder
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 3225211133480912697, guid: b2e9d9e0fcb8f3c47bbe3fcf1db9a15d, type: 3}
       propertyPath: m_LocalPosition.x
@@ -262,6 +262,7 @@ GameObject:
   - component: {fileID: 281683447}
   - component: {fileID: 281683449}
   - component: {fileID: 281683448}
+  - component: {fileID: 281683450}
   m_Layer: 0
   m_Name: Ground
   m_TagString: Untagged
@@ -2205,6 +2206,26 @@ Tilemap:
     e31: 0
     e32: 0
     e33: 1
+--- !u!95 &281683450
+Animator:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 281683446}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: e772e1b6f2366284484865ea02421d20, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!4 &364773495 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2072655156419029715, guid: 60d383f23a32ef94297f91b9d398b568, type: 3}
