@@ -30,5 +30,7 @@ public class AIChase : MonoBehaviour
             transform.position = Vector2.MoveTowards(this.transform.position, player.transform.position, speed * Time.deltaTime);  //moves the enemy to given position. In this case "Player"
 
         }
+       
+       
     }
 }
