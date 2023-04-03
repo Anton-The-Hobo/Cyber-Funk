@@ -14,6 +14,7 @@ public class ChangeAnimation : MonoBehaviour
 
     void Update()
     {
+        //anropar metoderna
         WalkForward();
         WalkBackward();
         WalkRight();
@@ -26,7 +27,7 @@ public class ChangeAnimation : MonoBehaviour
         {
             anim.SetBool("Forward", true); //Gå över till "spin" animationen
         }
-        else //Om R-tangenten inte trycks ned
+        else //i andra fall
         {
             anim.SetBool("Forward", false); //Var idle animation
         }
@@ -38,7 +39,7 @@ public class ChangeAnimation : MonoBehaviour
         {
             anim.SetBool("Backward", true); //Gå över till "spin" animationen
         }
-        else //Om R-tangenten inte trycks ned
+        else //i andra fall
         {
             anim.SetBool("Backward", false); //Var idle animation
         }
@@ -50,7 +51,7 @@ public class ChangeAnimation : MonoBehaviour
         {
             anim.SetBool("Right", true); //Gå över till "spin" animationen
         }
-        else //Om R-tangenten inte trycks ned
+        else //i andra fall
         {
             anim.SetBool("Right", false); //Var idle animation
         }
@@ -62,7 +63,7 @@ public class ChangeAnimation : MonoBehaviour
         {
             anim.SetBool("Left", true); //Gå över till "spin" animationen
         }
-        else //Om R-tangenten inte trycks ned
+        else if //i andra fall
         {
             anim.SetBool("Left", false); //Var idle animation
         }
