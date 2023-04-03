@@ -63,7 +63,7 @@ public class ChangeAnimation : MonoBehaviour
         {
             anim.SetBool("Left", true); //Gå över till "spin" animationen
         }
-        else if //i andra fall
+        else //i andra fall
         {
             anim.SetBool("Left", false); //Var idle animation
         }
