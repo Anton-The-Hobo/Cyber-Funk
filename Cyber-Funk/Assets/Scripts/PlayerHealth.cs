@@ -13,9 +13,9 @@ public class PlayerHealth : MonoBehaviour
 
 
 
-    void Start()
+    private void Awake()
     {
-
+        playerHealth = maxHealth;
 
     }
 
