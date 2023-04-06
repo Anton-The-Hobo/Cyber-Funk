@@ -17,7 +17,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3225211133480912688, guid: b2e9d9e0fcb8f3c47bbe3fcf1db9a15d, type: 3}
       propertyPath: m_Name
-      value: Enemy2
+      value: Enemy2 Variant
       objectReference: {fileID: 0}
     - target: {fileID: 3225211133480912697, guid: b2e9d9e0fcb8f3c47bbe3fcf1db9a15d, type: 3}
       propertyPath: m_RootOrder
@@ -62,6 +62,10 @@ PrefabInstance:
     - target: {fileID: 3225211133480912697, guid: b2e9d9e0fcb8f3c47bbe3fcf1db9a15d, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3225211133480912701, guid: b2e9d9e0fcb8f3c47bbe3fcf1db9a15d, type: 3}
+      propertyPath: health
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3225211133480912702, guid: b2e9d9e0fcb8f3c47bbe3fcf1db9a15d, type: 3}
       propertyPath: m_Color.b
