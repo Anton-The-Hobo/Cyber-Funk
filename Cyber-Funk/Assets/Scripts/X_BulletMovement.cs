@@ -31,4 +31,12 @@ public class X_BulletMovement : MonoBehaviour //Script för spelarskottens riktni
             Destroy(gameObject); //förstör gameObjektet
         }
     }
+
+    void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.gameObject.tag == "Wall") //Om någon med detta script är i kontakt med något med tagen "Wall"...
+        {
+            Destroy(gameObject);
+        }
+    }
 }
