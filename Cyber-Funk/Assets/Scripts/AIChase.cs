@@ -5,32 +5,17 @@ using UnityEngine;
 public class AIChase : MonoBehaviour
 {
 
+    public int speed;
     public GameObject player;
-    public float speed;    // how fast the enemy is chasing you
-    public float distanceBetween;   //how far away before enemy starts chasing 
 
-    private float distance;    // how far the enemy can see you and start chasing you
-
-
-    // Start is called before the first frame update
-    void Start()
+    void Awake()
     {
-        
+        player = GameObject.FindWithTag("Player");
     }
-
-    // Update is called once per frame
     void Update()
     {
-        distance = Vector2.Distance(transform.position, player.transform.position);
-        Vector2 direction = player.transform.position - transform.position;
-
-       
-        if(distance < distanceBetween)
-        {
-            transform.position = Vector2.MoveTowards(this.transform.position, player.transform.position, speed * Time.deltaTime);  //moves the enemy to given position. In this case "Player"
-
-        }
-       
-       
+        Vector3 localPosition = player.transform.position - transform.position;
+        localPosition = localPosition.normalized; // The normalized direction in LOCAL space
+        transform.Translate(localPosition.x * Time.deltaTime * speed, localPosition.y * Time.deltaTime * speed, localPosition.z * Time.deltaTime * speed);
     }
 }

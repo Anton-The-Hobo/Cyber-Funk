@@ -19,7 +19,6 @@ public class LevelLoader : MonoBehaviour
         
         if(other.tag == "Player") //om ett object with the tag "player" colliderar med "levelswitch" so byter den scene.
         {
-            
             LoadNextLevel();
         }
     }

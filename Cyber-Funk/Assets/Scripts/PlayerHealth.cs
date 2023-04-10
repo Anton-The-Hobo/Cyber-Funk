@@ -5,29 +5,13 @@ using UnityEngine;
 public class PlayerHealth : MonoBehaviour
 {
 
-    public int maxHealth = 2; //how many health points our player has
+    public int maxHealth = 3; //how many health points our player has
     public int playerHealth;
-
-
-    
-
-
 
     private void Awake()
     {
         playerHealth = maxHealth;
-
+        DontDestroyOnLoad(this.gameObject);
     }
 
-
-    void Update()
-    {
-
-    }
-
-
-        
-    
-       
-    
 }
