@@ -17,7 +17,7 @@ public class Reset : MonoBehaviour
         if (Input.GetKeyDown("r"))
         // Om man trycker på r.
         {
-            SceneManager.LoadScene("01_StartScene");
+            SceneManager.LoadScene("01_StartScene_safe");
             // Så startas scenen om.
         }
     }
